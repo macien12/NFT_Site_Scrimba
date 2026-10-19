@@ -10,4 +10,4 @@ function yearInfo(year) {
 
 yearInfo(dateSnapshot)
 
-// console.log(`Cpyoright ${dateSnapshot.getFullYear().toString()}`)
+
