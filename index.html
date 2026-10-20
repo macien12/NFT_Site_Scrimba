@@ -1,66 +1,32 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Maciej's Expensive Pierogi | Polish Food NFTs</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-<script src="index.js" type="module"></script>
-	<header>
-		<div class="container">
-			<h1>
-				Maciej's Expensive Pierogi
-				<span class="subheading">Traditional recipes. Questionable prices.</span>
-			</h1>
-			
-			<!-- Site Navigation -->
-			<nav>
-				<ul>
-					<li><a href="#">Menu</a></li>
-					<li><a href="#">Our Story</a></li>
-					<li><a href="#">Collection</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<main>
-		<section>
-			<div class="container">
-				<h2>The Original Pierogi NFT: $33,000</h2>
-				<img  src="images/pierogi.png" alt="Delicious plate of pierogi" class="main-image">
-				<h3>Just like babcia made. With a few extra zeros.</h3>
-				<p>Golden edges. Soft dough. A price that would make your grandmother put down her rolling pin. Welcome to our little corner of the blockchain, where Polish comfort food gets the luxury treatment. Start with <a href="#">our signature pierogi</a>: all the charm of a homemade dinner, with absolutely none of the dinner. Sour cream sold separately. Actually, not sold at all.</p>
-				<a href="#" class="btn btn-dark">Collect the Pierogi</a>
-				<a href="#" class="btn btn-mid">What's Cooking?</a>
-			</div>
-		</section>
-			
-		<section class="section-two">
-			<div class="container">
-				<h2>For Collectors with Expensive Taste</h2>
-				<div class="section-two-image-container">
-					<div class="feature-item">
-						<img src="images/pierogi2.png" alt="Pierogi artwork from the Polish comfort food NFT collection" class="feature-image">
-						<p>The Pierogi Reserve: $6.6 million. For when one digital helping simply won't do. A second helping of Polish comfort food, priced like the family recipe comes with a castle.</p>
-					</div>
-					<div class="feature-item">
-						<img src="images/bigos.png" alt="Bigos artwork from the Polish comfort food NFT collection" class="feature-image">
-						<p>The Million-Dollar Bigos: $1 million. A hearty Polish classic with a very untraditional price tag. Slow-cooked character, rich detail, and zero dishes to wash.</p>
-					</div>			
-				</div>
-				<a href="#" class="btn btn-light">Meet the Kitchen</a>
-				<a href="#" class="btn btn-mid">Talk Pierogi</a>
-				<p>Still hungry? These are digital collectibles, so we'd recommend actual pierogi for that. Babcia would, too.</p>
-			</div>
-		</section>
-			
-		<footer>
-			<p id="footerYear">&copy; Maciej's Expensive Pierogi</p>
-		</footer>
-	</main>
-</body>
+    <head>
+        <title>Scrimbafy Me!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="intro">
+            <h1>Turn <strong>your picture</strong> into an iconic <strong>Scrimba avatar</strong></h1>
+            <span class="beta-text">Currently in Beta</span>
+            <p class="top-text">Powered by Scrimba</p>
+        </section>
+        
+        <main class="main-content">
+            <img class="img-main" src="images/avatar.png" alt="My Scrimba avatar.">
+            <h2>Scrimbafy.me</h2>
+            <span class="subheading">Liven up your profile pic</span>
+            
+            <p>The colorful and iconic Scrimba avatars are no longer just for members of the Scrimba team and its Avengers-caliber group of code reviewers. You can Scrimbafy your photo today!</p>
+            
+            <form>
+                <input type="text" required placeholder="Name" aria-label="Name">
+                <input type="email" required  placeholder="Email" aria-label="Email">
+                <input type="file" required accept="image/png, image/jpg" aria-label="Choose file">
+                <button class="btn btn-primary">Submit</button>
+            </form>   
+            <p class="fine-print">We'll never share your information without permission</p>
+        </main>
+    </body>
 </html>
